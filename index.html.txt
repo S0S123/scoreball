@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Score</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center; /* Mengatur konten ke tengah horizontal */
+            align-items: center; /* Mengatur konten ke tengah vertikal */
+            height: 100vh; /* Memastikan konten memenuhi seluruh tinggi halaman */
+            margin: 0;
+            background-color: #f4f4f4; /* Warna latar belakang */
+        }
+
+        iframe {
+            border: 2px solid #ddd; /* Memberikan border di sekitar iframe */
+            border-radius: 8px; /* Sudut border sedikit melengkung */
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Live Score</h1>
+        <iframe src="https://freelive.7msport.com/live.aspx?mark=en&TimeZone=%2B0800&wordAd=&wadurl=//&width=700&cpageBgColor=FFFFFF&tableFontSize=11&cborderColor=DDDDDD&ctdColor1=FFFFFF&ctdColor2=E0E9F6&clinkColor=0044DD&cdateFontColor=333333&cdateBgColor=FFFFFF&scoreFontSize=12&cteamFontColor=000000&cgoalFontColor=FF0000&cgoalBgColor=FFFFE1&cremarkFontColor=0000FF&cremarkBgColor=F7F8F3&Skins=10&teamWeight=400&scoreWeight=700&goalWeight=400&fontWeight=700&DSTbox=" width="700" height="500" frameborder="0" scrolling="no"></iframe>
+    </div>
+</body>
+</html>
